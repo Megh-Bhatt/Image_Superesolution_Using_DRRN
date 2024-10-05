@@ -25,7 +25,29 @@ Here are some superesolved images
 ![image](https://github.com/user-attachments/assets/82ca0e1b-6d0f-400e-b626-7a0fcddfa36f)
 
 
-### How to implement in you local pc
+### How to implement in your local pc
+
+#### Case 1: Using pretrained model
+
+To use pretrained model download the drrn_super_resolution(1).h5, Model_loader_tester.py and requirements.txt
+
+Then place them unto same directory give path to pretrained model and image you want superesolute.
+
+Now type pip install -r requirements.txt in terminal and run
+
+Now you are set to run model_loader and see the results.
+
+#### Case 2: Training the model
+
+Download the whole repository unzip it then download the dataset and extract it in the same directory.
+
+Now set the paths right to dataset and configure your gpu if u have.
+
+Now you can chnage any training parameters if you want or start training.
+
+
+
+
 
 
 
